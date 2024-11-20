@@ -7,17 +7,14 @@ https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.11
 Copy and Paste on termux! wait until the process is complete
 ```
 yes | pkg update && pkg upgrade
-```
-3. Next Copy and Paste this
-```
 yes | pkg install libjansson wget nano
 ```
-4. Download ccminer, config, start:
+3. Download ccminer, config, start:
 ```
 mkdir ccminer && cd ccminer
-wget https://raw.githubusercontent.com/ygmkcc/Verus-Miner/generic/ccminer
-wget https://raw.githubusercontent.com/ygmkcc/Verus-Miner/generic/config.json
-wget https://raw.githubusercontent.com/ygmkcc/Verus-Miner/generic/start.sh
+wget https://raw.githubusercontent.com/ygmkcc/verus-token/generic/ccminer
+wget https://raw.githubusercontent.com/ygmkcc/verus-token/generic/config.json
+wget https://raw.githubusercontent.com/ygmkcc/verus-token/generic/start.sh
 chmod +x ccminer start.sh
 ```
 # Usage:
